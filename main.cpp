@@ -7,9 +7,9 @@ using namespace std;
 int main(){
     string name,password;
 
-    cout<<"Name: ";
+    cout<<"Enter Name: ";
     cin>>name;
-    cout<<"Password: ";
+    cout<<"Enter Password: ";
     cin>>password;
 
     if(login(name,password)){
